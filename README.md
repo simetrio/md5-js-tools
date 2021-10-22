@@ -38,7 +38,7 @@ const { MD5 } = require("md5-js-tools");
 or
 
 ```javascript
-<script src="https://cdn.jsdelivr.net/gh/simetrio/md5-js-tools@1.0.0/md5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/md5-js-tools@1.0.2/lib/md5.min.js"></script>
 ```
 
 ## Usage

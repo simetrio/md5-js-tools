@@ -1,6 +1,6 @@
 {
   "name": "md5-js-tools",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Generate md5 hashes",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
     "minify": "webpack",
     "format": "prettier --write \"src/**/*.ts\" \"*.ts\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare": "npm run build",
+    "prepare": "npm run build && webpack --env path=lib",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
